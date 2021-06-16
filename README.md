@@ -53,12 +53,12 @@ https://www.eclipse.org/downloads/<br>
 # Clone do projeto
 
 ```bash
-git clone 
+git clone https://github.com/jkpequeno/NoBugs.git
  ```
 
 - Entrando na pasta do projeto
  ```bash
-cd teste
+cd NoBugs
  ```
 
 
