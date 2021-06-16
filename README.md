@@ -46,7 +46,7 @@ https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
 5. Instalação do Eclipse
 https://www.eclipse.org/downloads/<br>
 
-6. Instalação do ChromeDrive: https://chromedriver.chromium.org/downloads<br>
+6. Instalação do ChromeDriver: https://chromedriver.chromium.org/downloads<br>
 
 <br>
 
