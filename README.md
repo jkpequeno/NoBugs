@@ -1,6 +1,6 @@
 <h1>🚀 [   ACCADEMIA ACCENTURE QA   ] </h1>
 
-### Time QA: Jennefer Pequeno, Julia Paulin, Jéssica Bianca, Jéssica Lira, Jeanne Barbosa, Kamila Feitosa</h2>
+### Time QA: Jennefer Pequeno, Julia Paulino, Jéssica Bianca, Jéssica Lira, Jeanne Barbosa, Kamila Feitosa</h2>
 
 ###  💻 Tecnologias utilizadas: Cucumber, Selenium Web Driver, Junit, Java & Trello
 
