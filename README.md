@@ -4,6 +4,8 @@
 
 ###  💻 Tecnologias utilizadas: Cucumber, Selenium Web Driver, Junit, Java & Trello
 
+## Trello: https://trello.com/b/F68pTAcE/no-bugs-projeto-qa-accenture
+
 <br>
 
 # O desafio
@@ -43,10 +45,11 @@ https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
 4. Adicionar em path em variáveis de ambiente em 'Variáveis do sistema' o caminho indicando para<br>
 <b>\Program Files\Java\jdk-11.0.11\bin </b>
 
-5. Instalação do Eclipse
+5. Instalação do Eclipse<br>
 https://www.eclipse.org/downloads/<br>
 
-6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto: https://chromedriver.chromium.org/downloads<br>
+6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto:<br>
+https://chromedriver.chromium.org/downloads<br>
 
 <br>
 
