@@ -53,7 +53,7 @@ Observação: após instalação e abertura do projeto dentro do eclipse é nece
 6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto:<br>
 https://chromedriver.chromium.org/downloads<br>
 
-Ao abrir o projeto aponte para o chromedriver que está na sua máquina:
+Ao abrir o projeto aponte para o chromedriver que está na sua máquina: <br> 
 System.setProperty("webdriver.chrome.driver", "caminhoNaSuaMáquina\chromedriver.exe");
 <br>
 
