@@ -48,9 +48,13 @@ https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
 5. Instalação do Eclipse<br>
 https://www.eclipse.org/downloads/<br>
 
+Observação: após instalação e abertura do projeto dentro do eclipse é necessário configurar na aba: Window > Preferences > Abra General > Clique em Workspace > Altere o campo 'Text file encoding' para 'Other' e selecione 'UTF-8 > clique em 'Apply and Close'
+
 6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto:<br>
 https://chromedriver.chromium.org/downloads<br>
 
+Ao abrir o projeto aponte para o chromedriver que está na sua máquina:
+System.setProperty("webdriver.chrome.driver", "caminhoNaSuaMáquina\chromedriver.exe");
 <br>
 
 # Clone do projeto
