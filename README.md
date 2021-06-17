@@ -13,7 +13,7 @@
 
 # Casos de teste
 
-**Cenário 1:**: Aceitar o cookie LGPD<br>
+**Cenário 1:** Aceitar o cookie LGPD<br>
  
 **Cenário 2:** Configurações do cookie<br>
 
@@ -46,7 +46,7 @@ https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
 5. Instalação do Eclipse
 https://www.eclipse.org/downloads/<br>
 
-6. Instalação do ChromeDriver: https://chromedriver.chromium.org/downloads<br>
+6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto: https://chromedriver.chromium.org/downloads<br>
 
 <br>
 
