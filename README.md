@@ -59,10 +59,6 @@ https://chromedriver.chromium.org/downloads<br>
 git clone https://github.com/jkpequeno/NoBugs.git
  ```
 
-- Entrando na pasta do projeto
- ```bash
-cd NoBugs
- ```
 
 
 
