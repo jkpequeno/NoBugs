@@ -33,41 +33,43 @@
 
 # Pré requisitos
 
-1. Instalar o Java: <br>
-https://www.java.com/pt-BR/download/ie_manual.jsp?locale=pt_BR
-
-2. Instalar JDK 11.0.1<br>
+1. Instalar JDK 11.0.1<br>
 https://www.oracle.com/br/java/technologies/javase-jdk11-downloads.html
 
-3. Verificar em variáveis de ambiente se  JAVA_HOME está configurado com o caminho indicando para<br> 
+2. Verificar em variáveis de ambiente se  JAVA_HOME está configurado com o caminho indicando para<br> 
 <b>\Program Files\Java\jdk-11.0.11</b>
 
-4. Adicionar em path em variáveis de ambiente em 'Variáveis do sistema' o caminho indicando para<br>
+3. Adicionar em path em variáveis de ambiente em 'Variáveis do sistema' o caminho indicando para<br>
 <b>\Program Files\Java\jdk-11.0.11\bin </b>
 
-5. Instalação do Eclipse<br>
+4. Instalação do Eclipse<br>
 https://www.eclipse.org/downloads/<br>
 
-Observação: após instalação e abertura do projeto dentro do eclipse é necessário configurar na aba: Window > Preferences > Abra General > Clique em Workspace > Altere o campo 'Text file encoding' para 'Other' e selecione 'UTF-8 > clique em 'Apply and Close'
-
-6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto:<br>
+5. Baixar e descompactar o ChromeDriver:<br>
 <b>Abra o chrome e verifique a versão do chrome em 'Sobre o Google Chrome' e posteriormente instale o chrome driver de acordo com a versão do seu chrome
 
 https://chromedriver.chromium.org/downloads<br>
 
- Descompacte o arquivo e copie o caminho para efetuar a seguinte modificação:
+Descompacte o arquivo e copie o caminho para efetuar a seguinte modificação:
  
  <b>IMPORTANTÍSSIMO:</b> Ao abrir o projeto aponte para o chromedriver que está na sua máquina: <br> 
 System.setProperty("webdriver.chrome.driver", "caminhoNaSuaMáquina\chromedriver.exe");
 <br>
 
-# Clone do projeto
+# Passo a passo para abrir o projeto no Eclipse
+ 
+1. No seu terminal digite: git clone https://github.com/jkpequeno/ProjetoNoBugs.git <br>
+Observação: se for da sua preferência trocar a pasta que o projeto vai ficar a navegação é simples: <br>
+ls (lista as pastas) > cd nomeDaPasta que você deseja que o projeto fique e por fim:<br> git clone https://github.com/jkpequeno/ProjetoNoBugs.git
 
-```bash
-git clone https://github.com/jkpequeno/NoBugs.git
- ```
+2. Abra o eclipe e clique em 'Browse' > busque pela pasta ProjetoNoBugs > selecione a pasta > Clique em Launch para abrir
 
+3. Acesse Window > Preferences > General > Workspace > Modifique o 'Text File encoding' para 'Other' e selecione 'UTF-8' > clique em 'Apply and Close'
 
+4. Clique em 'File' > clique em 'Open Projects from Fyle System' >  clique em 'Directory' > Selecione a pasta clonada 'ProjetoNoBugs' > Clique em 'Finish'
 
+5. Abra o cenário que deseja verificar, acesse: src/test/java > vá em 'steps' > abra steps e altere o caminho para a pasta do webdriver em sua máquina <br>
 
+   System.setProperty("webdriver.chrome.driver", "C:\\caminhoDaSuaMáquinaAtéOExecutavel\\chromedriver.exe");
 
+6. Help > Marketplace > Instalar Cucumber > Feche o Eclipse e abra novamente para dar Run na feature desejada.
