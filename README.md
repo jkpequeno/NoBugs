@@ -51,9 +51,13 @@ https://www.eclipse.org/downloads/<br>
 Observação: após instalação e abertura do projeto dentro do eclipse é necessário configurar na aba: Window > Preferences > Abra General > Clique em Workspace > Altere o campo 'Text file encoding' para 'Other' e selecione 'UTF-8 > clique em 'Apply and Close'
 
 6. Baixar e descompactar o ChromeDriver, alterando o caminho no projeto:<br>
+<b>Abra o chrome e verifique a versão do chrome em 'Sobre o Google Chrome' e posteriormente instale o chrome driver de acordo com a versão do seu chrome
+
 https://chromedriver.chromium.org/downloads<br>
 
-Ao abrir o projeto aponte para o chromedriver que está na sua máquina: <br> 
+ Descompacte o arquivo e copie o caminho para efetuar a seguinte modificação:
+ 
+ <b>IMPORTANTÍSSIMO:</b> Ao abrir o projeto aponte para o chromedriver que está na sua máquina: <br> 
 System.setProperty("webdriver.chrome.driver", "caminhoNaSuaMáquina\chromedriver.exe");
 <br>
 
